@@ -356,7 +356,6 @@ Working with Propshaft
 From Rails 8 onwards, Propshaft is included by default. To use Propshaft, you
 need to configure it properly and organize your assets in a way that Rails can
 serve them efficiently.
-
 ### Setup
 
 Follow these steps for setup Propshaft in your Rails application:
