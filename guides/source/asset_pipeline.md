@@ -431,7 +431,7 @@ Follow these steps for setup Propshaft in your Rails application:
     Update the `config/routes.rb` file to set the root route to the newly created Home controller:
     ```ruby
     Rails.application.routes.draw do
-      root 'home#index'
+      root "home#index"
     end
     ```
     
