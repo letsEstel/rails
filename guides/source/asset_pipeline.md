@@ -349,6 +349,7 @@ config.assets.excluded_paths = [Rails.root.join("app/assets/stylesheets")]
 
 This will prevent the specified directories from being processed by Propshaft
 while still allowing them to be part of the precompilation process.
+
 Working with Propshaft
 ----------------------
 
