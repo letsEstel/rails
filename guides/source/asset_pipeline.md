@@ -364,7 +364,7 @@ Follow these steps for setting up Propshaft in your Rails application:
 1. Create a new Rails application:
 
     ```bash
-    rails new app_name
+    $ rails new app_name
     ```
 
 2. Organize your assets:
@@ -423,7 +423,7 @@ Follow these steps for setting up Propshaft in your Rails application:
     Generate the Home controller:
 
     ```bash
-    rails generate controller Home index
+    $ rails generate controller Home index
     ```
 
 5. Set Root Route
@@ -439,7 +439,7 @@ Follow these steps for setting up Propshaft in your Rails application:
 6. Start the Rails server:
 
     ```bash
-    bin/rails server
+    $ bin/rails server
     ```
 
 7. Preview your application:
