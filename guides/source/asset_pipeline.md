@@ -349,7 +349,6 @@ config.assets.excluded_paths = [Rails.root.join("app/assets/stylesheets")]
 
 This will prevent the specified directories from being processed by Propshaft
 while still allowing them to be part of the precompilation process.
-
 Working with Propshaft
 ----------------------
 
@@ -359,12 +358,12 @@ serve them efficiently.
 
 ### Setup
 
-Follow these steps for setup Propshaft in your Rails application:
+Follow these steps for setting up Propshaft in your Rails application:
 
 1. Create a new Rails application:
 
     ```bash
-    $ rails new app_name
+    rails new app_name
     ```
 
 2. Organize your assets:
@@ -421,25 +420,25 @@ Follow these steps for setup Propshaft in your Rails application:
     create a Home controller with an index action.
 
     Generate the Home controller:
-   
+
     ```bash
-    $ rails generate controller Home index
+    rails generate controller Home index
     ```
 
 5. Set Root Route
 
     Update the `config/routes.rb` file to set the root route to the newly created Home controller:
+
     ```ruby
     Rails.application.routes.draw do
       root "home#index"
     end
     ```
-    
 
 6. Start the Rails server:
 
     ```bash
-    $ bin/rails server
+    bin/rails server
     ```
 
 7. Preview your application:
